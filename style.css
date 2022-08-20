@@ -1,0 +1,161 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 50px;
+}
+
+.logo_cat {
+  width: 10vw !important;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.meow_cat {
+  width: 50vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.meow_cat:hover {
+  cursor: pointer;
+}
+
+.head p {
+  text-align: center;
+  font-size: 22px;
+  margin: 20px 100px 20px 100px;
+}
+
+.facts img {
+  width: 30vw;
+  height: auto;
+}
+
+.facts_main_title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.facts_area_1 {
+  display: flex;
+  justify-content: center;
+  padding: 28px;
+}
+
+.facts_area_2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 28px;
+}
+
+.facts_area_3 {
+  display: flex;
+  justify-content: center;
+  padding: 28px;
+}
+
+.facts_area_4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 28px;
+}
+
+.facts_area_5 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.facts_number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 60px;
+  font-size: 26px;
+  line-height: 60px;
+}
+
+.facts_text {
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 20px;
+  width: 60%;
+  height: 500px;
+}
+
+.link {
+  text-align: center;
+  font-size: 25px;
+  background-color: yellow;
+  color: black;
+}
+
+.link a {
+  outline: none;
+  text-decoration: none;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+.link a:hover {
+  outline: auto;
+  color: darkred;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 32px;
+  color: white;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(69, 75, 10, 1) 54%,
+    rgba(245, 255, 0, 1) 100%
+  );
+  padding: 18px 23px 18px 23px;
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: rgb(38, 57, 77) 0px 30px 40px -10px;
+  transition: all 200ms ease-in-out;
+  margin-bottom: 100px;
+}
+
+button:hover {
+  color: black;
+  background: rgb(247, 245, 5);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 245, 5, 1) 0%,
+    rgba(69, 75, 10, 1) 68%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border: 2px solid white;
+  cursor: pointer;
+}
